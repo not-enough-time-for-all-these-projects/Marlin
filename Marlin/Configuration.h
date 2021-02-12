@@ -93,7 +93,7 @@
 #define SHOW_CUSTOM_BOOTSCREEN
 
 // Show the bitmap in Marlin/_Statusscreen.h on the status screen.
-#define CUSTOM_STATUS_SCREEN_IMAGE
+// #define CUSTOM_STATUS_SCREEN_IMAGE
 
 // @section machine
 
@@ -1812,7 +1812,7 @@
 // If you have a speaker that can produce tones, enable it here.
 // By default Marlin assumes you have a buzzer with a fixed frequency.
 //
-#define SPEAKER
+// #define SPEAKER
 
 //
 // The duration and frequency for the UI feedback sound.
@@ -1835,7 +1835,7 @@
 //
 // Note: Usually sold with a white PCB.
 //
-//#define REPRAP_DISCOUNT_SMART_CONTROLLER
+// #define REPRAP_DISCOUNT_SMART_CONTROLLER
 
 //
 // Original RADDS LCD Display+Encoder+SDCardReader
@@ -1890,7 +1890,7 @@
 //
 // Generic 16x2, 16x4, 20x2, or 20x4 character-based LCD.
 //
-//#define ULTRA_LCD
+#define ULTRA_LCD
 
 //=============================================================================
 //======================== LCD / Controller Selection =========================
@@ -1922,7 +1922,7 @@
 //
 // Generic LCM1602 LCD adapter
 //
-//#define LCM1602
+// #define LCM1602
 
 //
 // PANELOLU2 LCD with status LEDs,
@@ -1985,7 +1985,7 @@
 // RepRapDiscount FULL GRAPHIC Smart Controller
 // https://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller
 //
-#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
+// #define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
 
 //
 // ReprapWorld Graphical LCD
@@ -2071,7 +2071,7 @@
 // This is RAMPS-compatible using a single 10-pin connector.
 // (For CR-10 owners who want to replace the Melzi Creality board but retain the display)
 //
-//#define CR10_STOCKDISPLAY
+#define CR10_STOCKDISPLAY
 
 //
 // Ender-2 OEM display, a variant of the MKS_MINI_12864
